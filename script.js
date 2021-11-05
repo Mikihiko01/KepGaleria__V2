@@ -30,7 +30,7 @@ $(function () {
 
     const nagyKepElem = $("#nagy");
     const ujElem = sablonElem.clone().appendTo(szuloElem);
-    const foKepp = new KepOsztaly(ujElem, kepTomb);
+   // const foKepp = new KepOsztaly(ujElem, kepTomb);
     sablonElem.remove();
 
     $(window).on("atvalt", (event) => {
